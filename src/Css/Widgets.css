@@ -1,0 +1,48 @@
+
+.widgets{
+    position:sticky;
+    top:80px;
+    flex:0.2;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height:fit-content;
+    padding-bottom: 10px;
+}
+.widgets-header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 10px
+}
+.widgets-header >h2
+{
+    font-size: 20px;
+    font-weight:800;
+    padding-right: 10px;
+}
+.widgets-article{
+    display:flex;
+    padding: 10px;
+    cursor: pointer;
+}
+.widgets-accounts{
+    padding: 12px;
+}
+.widgets-articleRight > button{
+    border-radius: 20px;
+    border: 1px solid #777;
+    padding:10px 25px;
+    margin-top:5px;
+    font-size:16px;
+    color:#777;
+    cursor:pointer;
+    font-weight:bold;
+}
+.widgets-articleRight > button:hover{
+    color:black;
+    border: 1px solid black
+}
+.widgets-articleLeft{
+    margin-right: 10px;
+}

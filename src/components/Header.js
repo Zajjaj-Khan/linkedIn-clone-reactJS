@@ -8,14 +8,22 @@ import TextsmsRoundedIcon from '@mui/icons-material/TextsmsRounded';
 import NotificationsRoundedIcon from '@mui/icons-material/NotificationsRounded';
 
 import HeaderOption from './HeaderOption';
+import { useDispatch } from 'react-redux';
+import { logout } from '../features/userSlice';
+import { auth } from './firebase';
 function Header() {
+  const dispatch = useDispatch();
+  const logoutApp = () => {
+    dispatch(logout());
+    auth.signOut();
+  }
   return (
     <div className='header'>
          <div className='header-left'>
             <img src='https://cdn-icons-png.flaticon.com/512/174/174857.png'alt='logo'/>
             <div className='header-search'>
             <SearchIcon/>
-            <input type='text'/>
+            <input placeholder="Search" type='text'/>
             </div>
             
             </div>   
@@ -26,7 +34,9 @@ function Header() {
             <HeaderOption title='Jobs' Icon={BusinessCenterIcon}/>
             <HeaderOption title='Messaging' Icon={TextsmsRoundedIcon}/>
             <HeaderOption title='Notification' Icon={NotificationsRoundedIcon}/>
-            <HeaderOption avatar='https://media.licdn.com/dms/image/C4D03AQEvtNZwewM2NA/profile-displayphoto-shrink_800_800/0/1654463791954?e=2147483647&v=beta&t=nlt-vlxJmzx2itX217MjkTWrq5Wrg2yQvb8-5LnjoAQ' title='Me'/>
+            <HeaderOption avatar={true} title='Me'
+            onClick={logoutApp}
+            />
         </div>
             
     

@@ -9,5 +9,9 @@
 
 .app-body{
     display:flex;
+    margin-top:35px;
+    max-width:1500px;
+    margin-left:20px;
+    margin-right:20px;
 
 }
