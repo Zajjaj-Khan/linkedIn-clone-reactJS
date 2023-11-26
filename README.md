@@ -1,46 +1,63 @@
-# Getting Started with Create React App and Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# LinkedIN Clone 🤡 
+This a an amazing build, developed entirely by me on ReactJS and lot more tools. Building this clone i Learned alot and looking forword to biuld more amazing websites like these. 
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/2560px-LinkedIn_Logo.svg.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Demo
+linkedIn Clone: https://linkedin-clone-92f75.web.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Tech Stack
+- ReactJS 
+- Redux (State Management Tool)
+- Pure CSS
+- Firebase real-time Database
+- Firebase Authentication
+- Flip-Move (React-Animation-library)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Run Locally
 
-### `npm run eject`
+Clone the project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  git clone https://github.com/Zajjaj-Khan/linkedIn-clone-reactJS.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Go to the project directory
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  cd my-project
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  npm run start
+```
+
+
+## FAQ
+
+#### Secuirty Error ! when we clcik the demo link?
+
+ Go to google chrome setting ⚙️ > Privacy and Secuirty > Uncheck `Enable security for fishing and mallware`
+
+
+
+
+## Login Screen
+![Login](https://github.com/Zajjaj-Khan/linkedIn-clone-reactJS/blob/master/linkedIn.png?raw=true)
+
